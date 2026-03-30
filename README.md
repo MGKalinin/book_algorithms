@@ -13,6 +13,7 @@ def lbinsearch(l, r, check, checkparams):
 
 #### где check некая формула проверки, к примеру
 ```
-def check(m, checkparams):
-    return m*m >=  checkparams
+def checkproblemcount(days, params):
+    n, k = params
+    return (k + (k + days - 1)) * days // 2 >= n
 ```
