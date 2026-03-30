@@ -9,4 +9,10 @@ def lbinsearch(l, r, check, checkparams):
         else:
             l = m + 1
     return l
-    ```
+```    
+
+#### где check некая формула проверки, к примеру
+```
+def check(m, checkparams):
+    return m*m >=  checkparams
+```
