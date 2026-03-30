@@ -1,5 +1,6 @@
 # book_algorithms
-### Формула бинарный поиск
+### Бинарный поиск
+#### формула
 ```
 def lbinsearch(l, r, check, checkparams):
     while l < r:
