@@ -1,4 +1,4 @@
-# book_algorithms
+# My selection of algorithms by topic   
 ### Бинарный поиск (бинарный поиск по ответу)
 #### формула
 ```
